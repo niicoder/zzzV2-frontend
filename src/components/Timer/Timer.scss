@@ -1,0 +1,22 @@
+@use 'variables';
+
+.time-remaining {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  flex: 1;
+
+  .times {
+    font-size: 14px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .pool-time-remaining {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
